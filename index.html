@@ -8,6 +8,7 @@
   
   <title>Frontend Mentor | Product list with cart</title>
   <link rel ="stylesheet" href="style.css"> <!-- link to the stylesheet -->
+  <script src="https://kit.fontawesome.com/b5fd2b6300.js" crossorigin="anonymous"></script>
 
   <style>
     .attribution { font-size: 11px; text-align: center; }
@@ -15,90 +16,90 @@
   </style>
 </head>
 <body>
-
 <div class ="main">
-        <div class ="products"> 
-          <h1>Dessert</h1>
-            <div class ="product">
-              <img src="waffle.jpg" alt="waffle">
-              <button onclick="addcart()"> Add to cart</button>
-              <p class ="p1"> Waffle </p> 
-              <p class = "p2"> Waffle with Berries </p>
-              <p class = "price" id ="price"> $6.50 </p>
-            </div>
+  <div class ="products"> 
+    <h1>Dessert</h1>
+      <div class ="product">
+        <img src="waffle.jpg" alt="waffle">
+        <button onclick="addcart()"> Add to cart</button>
+        <p class ="p1"> Waffle </p> 
+        <p class = "p2"> Waffle with Berries </p>
+        <p class = "price"> $6.50 </p>
+      </div>
 
-            <div class ="product">
-              <img src="creeme.jpg" alt="creeme">
-              <button onclick="addcart()">Add to cart</button>
-              <p class ="p1"> Crème Brûlée </p> 
-              <p class = "p2">  Vanilla Bean Crème Brûlée </p>
-              <p class = "price" id ="price"> $7.00 </p>
-            </div>
-            
-            <div class ="product">
-              <img src="macaron.jpg" alt="macaron">
-              <button onclick="addcart()">Add to cart</button>
-              <p class ="p1"> Macaron </p> 
-              <p class = "p2">  Macaron Mix of Five </p>
-              <p class = "price" id ="price"> $8.00 </p>
-            </div>
+      <div class ="product">
+        <img src="creeme.jpg" alt="creeme">
+        <button onclick="addcart()">Add to cart</button>
+        <p class ="p1"> Crème Brûlée </p> 
+        <p class = "p2">  Vanilla Bean Crème Brûlée </p>
+        <p class = "price"> $7.00 </p>
+      </div>
+      
+      <div class ="product">
+        <img src="macaron.jpg" alt="macaron">
+        <button onclick="addcart()">Add to cart</button>
+        <p class ="p1"> Macaron </p> 
+        <p class = "p2">  Macaron Mix of Five </p>
+        <p class = "price"> $8.00 </p>
+      </div>
 
-            <div class ="product">
-              <img src="tiramisu.jpg" alt="tiramisu">
-              <button onclick="addcart()">Add to cart</button>
-              <p class ="p1"> Tiramisu </p> 
-              <p class = "p2">  Classic Tiramisu </p>
-              <p class = "price" id ="price"> $5.50 </p>
-            </div>
+      <div class ="product">
+        <img src="tiramisu.jpg" alt="tiramisu">
+        <button onclick="addcart()">Add to cart</button>
+        <p class ="p1"> Tiramisu </p> 
+        <p class = "p2">  Classic Tiramisu </p>
+        <p class = "price"> $5.50 </p>
+      </div>
 
-            <div class ="product">
-              <img src="baklava.jpg" alt="baklava">
-              <button onclick="addcart()">Add to cart</button>
-              <p class ="p1"> Baklava </p> 
-              <p class = "p2">  Pistachio Baklava </p>
-              <p class = "price" id ="price"> $4.00 </p>
-            </div>
+      <div class ="product">
+        <img src="baklava.jpg" alt="baklava">
+        <button onclick="addcart()">Add to cart</button>
+        <p class ="p1"> Baklava </p> 
+        <p class = "p2">  Pistachio Baklava </p>
+        <p class = "price"> $4.00 </p>
+      </div>
 
-            
-            <div class ="product">
-              <img src="pie.jpg" alt="pie">
-              <button onclick="addcart()">Add to cart</button>
-              <p class ="p1"> Pie</p> 
-              <p class = "p2">   Lemon Meringue Pie </p>
-              <p class = "price" id ="price"> $5.00 </p>
-            </div>
+      
+      <div class ="product">
+        <img src="pie.jpg" alt="pie">
+        <button onclick="addcart()">Add to cart</button>
+        <p class ="p1"> Pie</p> 
+        <p class = "p2">   Lemon Meringue Pie </p>
+        <p class = "price"> $5.00 </p>
+      </div>
 
-            <div class ="product">
-              <img src="redvelvet.jpg" alt="red velvet cake">
-              <button onclick="addcart()">Add to cart</button>
-              <p class ="p1"> Red Velvet Cake </p> 
-              <p class = "p2">  Classic Red Velvet Cake </p>
-              <p class = "price" id ="price"> $4.50 </p>
-            </div>
+      <div class ="product">
+        <img src="redvelvet.jpg" alt="red velvet cake">
+        <button onclick="addcart()">Add to cart</button>
+        <p class ="p1"> Red Velvet Cake </p> 
+        <p class = "p2">  Classic Red Velvet Cake </p>
+        <p class = "price"> $4.50 </p>
+      </div>
 
-            <div class ="product">
-              <img src="brownie.jpg" alt="brownie">
-              <button onclick="addcart()">Add to cart</button>
-              <p class ="p1"> Brownie </p> 
-              <p class = "p2">Chocolate Fudge Brownie </p>
-              <p class = "price" id ="price"> $4.50 </p>
-            </div>
+      <div class ="product">
+        <img src="brownie.jpg" alt="brownie">
+        <button onclick="addcart()">Add to cart</button>
+        <p class ="p1"> Brownie </p> 
+        <p class = "p2">Chocolate Fudge Brownie </p>
+        <p class = "price"> $4.50 </p>
+      </div>
 
-            <div class ="product">
-              <img src="panna_cotta.jpg" alt="panna cotta">
-              <button onclick="addcart()"> Add to cart</button>
-              <p class ="p1"> Panna Cotta </p> 
-              <p class = "p2"> Vanilla Panna Cotta </p>
-              <p class = "price" id ="price"> $6.50 </p>
-            </div>
-        </div>
+      <div class ="product">
+        <img src="panna_cotta.jpg" alt="panna cotta">
+        <button onclick="addcart()"> Add to cart</button>
+        <p class ="p1"> Panna Cotta </p> 
+        <p class = "p2"> Vanilla Panna Cotta </p>
+        <p class = "price"> $6.50 </p>
+      </div>
+  </div>
 
-        <div class ="cart">
-              <h2 class ="pcart">Your Cart</h2>
-              <p class ="cartitems"> No items in cart <br> </p>
-              <p class ="totalprice"> Total: $<span id ="productPrice"> </span> </p>
-              <button class="checkoutbutton">Checkout</button>
-        </div>
+  <div class ="cart">
+        <h2 class ="pcart">Your Cart</h2>
+        <p class ="cartitems">  <br> </p>
+        <p class ="items" id ="items"> Your cart is empty </p>
+        <p class ="totalprice" id ="totalprice"> Total: </p>
+        <button class="checkoutbutton">Checkout</button>
+  </div>
 </div>
 
 <script>
@@ -117,17 +118,20 @@
   }
 
   function updateCartDisplay() {
-    
-    var cartItemsElement = document.querySelector('.cartitems');
-    var totalPriceElement = document.getElementById('productPrice');
 
-    if (cartItems.length === 0) {
-      cartItemsElement.textContent = 'No items in cart';
-      totalPriceElement.textContent = '$0.00';
-    } else {
-      cartItemsElement.textContent = cartItems.map(item => item.name).join(",");
-      totalPriceElement.textContent =  totalPrice.toFixed(2);
+    if(cartItems.length > 0) {
+      document.getElementById("items").innerHTML = '';
+        for (var i = 0; i < cartItems.length; i++) {
+          item = cartItems[i];
+
+          document.getElementById("items").innerHTML +=  `<p>${item.name} ----------------- $${item.price.toFixed(2)}</p>`;
+        }
     }
+    document.getElementById("totalprice").innerHTML = "Total: $" + totalPrice;
+  }
+
+  function deleteItem(){
+  
   }
 </script>
 </body>

@@ -99,8 +99,7 @@ h1{
 
 .cartitems {
     font-size: 20px;
-    color: #000;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 .checkoutbutton {
@@ -112,3 +111,4 @@ h1{
     cursor: pointer;
     font-size: 16px;
 }
+
