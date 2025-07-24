@@ -97,6 +97,10 @@ h1{
     padding: 20px;
 }
 
+#main {
+    transition: opacity 0.5s ease;
+}
+    
 .cartitems {
     font-size: 20px;
     margin-top: 5px;
@@ -108,7 +112,40 @@ h1{
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
-    cursor: pointer;
+    margin-left: 195px;
     font-size: 16px;
+    margin-bottom: 2px;
+
 }
 
+.totalprice {
+    font-size: 20px;
+    color: #b70909;
+    margin-top: 40px;
+    margin-left: 195px;
+    margin-bottom: 5px;
+}
+
+.checkoutdiv {
+    width: 340px;
+    border-radius: 3px;
+    margin: 40px 530px;
+    padding: 10px 20px;
+    height: 200px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    position: absolute;  
+    top: 50px;          
+    left: 50px;
+    z-index: 10;
+}
+
+.orderagainbutton {
+    background-color: #b70909;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-left: 90px;
+}
