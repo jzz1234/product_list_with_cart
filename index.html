@@ -16,7 +16,7 @@
   </style>
 </head>
 <body>
-<div class ="main">
+<div class ="main" id="main">
   <div class ="products"> 
     <h1>Dessert</h1>
       <div class ="product">
@@ -98,11 +98,18 @@
         <p class ="cartitems">  <br> </p>
         <p class ="items" id ="items"> Your cart is empty </p>
         <p class ="totalprice" id ="totalprice"> Total: </p>
-        <button class="checkoutbutton">Checkout</button>
+        <button class="checkoutbutton" onclick ="checkout()">Checkout</button>
   </div>
-</div>
 
-<script>
+</div>
+ <div class = "checkoutdiv" id="checkoutdiv" style="display:none;">
+    <h2>Checkout</h2>
+    <p>Thank you for your purchase!</p>
+    <p>Your order has been placed successfully.</p>
+    <button class="orderagainbutton" onclick="orderAgain()">Order Again</button>
+  </div>
+
+<script>  
   var cartItems = [];
   var totalPrice = 0;
 
@@ -130,8 +137,19 @@
     document.getElementById("totalprice").innerHTML = "Total: $" + totalPrice;
   }
 
-  function deleteItem(){
+  function checkout (){
+    document.getElementById("checkoutdiv").style.display = "block";
+    document.getElementById("main").style.opacity = 0.4;
+    }
   
+  function orderAgain() {
+    document.getElementById("checkoutdiv").style.display = "none";
+    cartItems = [];
+    item = [];
+    totalPrice = 0;
+    document.getElementById("items").innerHTML = "Your cart is empty";
+    document.getElementById("totalprice").innerHTML = "Total: ";
+    document.getElementById("main").style.opacity = 1;
   }
 </script>
 </body>
